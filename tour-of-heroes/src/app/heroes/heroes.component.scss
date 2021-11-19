@@ -32,8 +32,11 @@ ul {
             color: white;
         }
         p.selected:hover {
-            background-color: #505050;
-            color: white;
+            background-color: rgb(110, 45, 45);
+            color: wheat;
+            span {
+                color: gold;
+            }
         }
         p.selected:active {
             background-color: black;

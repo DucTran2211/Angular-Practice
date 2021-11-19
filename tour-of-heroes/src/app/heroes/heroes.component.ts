@@ -21,7 +21,7 @@ export class HeroesComponent implements OnInit {
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
-    console.log('times clicked');
+    console.log(hero.name + " detail showed");
   }
 
 }
