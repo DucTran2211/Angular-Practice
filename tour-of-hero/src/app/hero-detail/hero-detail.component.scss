@@ -1,0 +1,20 @@
+* {
+    background-color: wheat;
+}
+
+.detail-container {
+    article {
+        color: red;
+        font-size: 10pt;
+        font-style: italic;
+        float: right;
+    }
+    .detailer {
+        padding-top: 50px;
+        input {
+            background-color: white;
+            font-weight: bolder;
+            padding: 0.5rem;
+        }
+    }
+}

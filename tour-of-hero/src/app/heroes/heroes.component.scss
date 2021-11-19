@@ -1,0 +1,53 @@
+* {
+    background-color: aquamarine;
+}
+article {
+    color: red;
+    font-size: 10pt;
+    font-style: italic;
+    float: right;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    li {
+        width: 10em;
+        padding: 10px;
+        margin: 0;
+        cursor: pointer;
+        
+        p {
+            background-color: #eee;
+            border-radius: 4px;
+            border: 1px solid black;
+        }
+        p:hover {
+            color: #2c3a41;
+            background-color: #a0a0a0;
+        }
+        p.selected {
+            background-color: black;
+            color: white;
+        }
+        p.selected:hover {
+            background-color: rgb(110, 45, 45);
+            color: wheat;
+            span {
+                color: gold;
+            }
+        }
+        p.selected:active {
+            background-color: black;
+            color: white;
+        }
+
+        span {
+            display: inline-block;
+            color: white;
+            background-color: #405061;
+            padding: 0 0 12px 0;
+        }
+    }
+}
