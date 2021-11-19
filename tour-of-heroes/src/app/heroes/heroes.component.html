@@ -1,0 +1,10 @@
+<article>HeroesComponent</article>
+
+<h2 style="padding-top: 50px;">My Heroes</h2> <!-- INLINE CSS STYLE TO REMOVE LATER -->
+<ul class="heroes" style="padding: 20px 20px;"> <!-- INLINE CSS STYLE TO REMOVE LATER -->
+    <li *ngFor="let hero of heroes" (click)="onSelect(hero)">
+        <p  [class.selected]="hero === selectedHero"><span>{{hero.id}}</span> {{hero.name}}</p>
+    </li>
+</ul>
+
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
